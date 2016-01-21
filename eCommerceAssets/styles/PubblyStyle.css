@@ -21,6 +21,7 @@ table {
 	font-weight: 400;
 }
 
+
 td {
   padding: 10px 0;
 }
@@ -153,9 +154,10 @@ td {
 /* Buy button for products in catalog */
 .productRow .productInfo .buyButton {
 	position: relative;
+	cursor: pointer;
 	top: -48px;
 	width: 84%;
-	background-color: rgba(208,207,207,1.00);
+	background-color: rgba(145,189,73,1.00);
 	height: 35px;
 	color: rgba(255,255,255,1.00);
 	border-style: none;

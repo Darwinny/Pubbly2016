@@ -11,19 +11,41 @@ header {
 	font-style: normal;
 	font-weight: 400;
 }
-table {
-  border-collapse: separate;
-  border-spacing: 50px 0;
-  font-family: 'Montserrat', sans-serif;
-	color: rgba(227,99,36,1.00);
-	font-size: 16px;
-	font-style: normal;
-	font-weight: 400;
+.secondary_header {
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	background-color: rgba(227,99,36,1.00);
+	clear: left;
 }
-
-
-td {
-  padding: 10px 0;
+.container .secondary_header ul {
+	margin-top: 0%;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	width: 100%;
+}
+.secondary_header ul li {
+	list-style: none;
+	float: left;
+	margin-right: auto;
+	margin-top: 0px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	color: #FFFFFF;
+	letter-spacing: 2px;
+	margin-left: auto;
+	text-align: center;
+	width: 16%;
+	transition: all 0.3s linear;
+}
+.secondary_header ul li:hover {
+	color: rgba(90,172,197,1.00);
+	cursor: pointer;
 }
 
 
@@ -97,14 +119,13 @@ td {
 	left: 0%;
 }
 /* Search field in sidebar */
-#content .sidebar #search {
+#search {
 	width: 100%;
 	border-radius: 0px;
-	height: 42px;
+	height: 20px;
 	text-align: center;
 	color: rgba(208,207,207,1.00);
 	font-size: 14px;
-	;
 	margin-bottom: 21px;
 }
 /* Whole page content */
@@ -112,14 +133,8 @@ td {
 	width: 80%;
 	padding-left: 10%;
 }
-/*menu elements */
-.menu ul li {
-	list-style-type: none;
-	font-size: x-large;
-	position: relative;
-	left: -35px;
-	padding-top: 12px;
-}
+
+
 /* Product rows for catalog */
 #content .mainContent .productRow {
 	overflow: auto;
@@ -231,6 +246,9 @@ footer .footerlinks {
 /* search field in sidebar */
 #content .sidebar #search {
 	display: none;
+	align: right;
+	padding-top: 10px;
+	
 }
 /* sidebar */
 #content .sidebar {
@@ -374,6 +392,8 @@ header #headerLinks a {
 	padding-right: 15px;
 	padding-left: 0px;
 }
+
+
 /*Offer - Text Banner */
 #mainWrapper #offer {
 	padding-left: 0px;
@@ -406,11 +426,7 @@ header #headerLinks a {
 	padding-bottom: 16px;
 	overflow: auto;
 }
-/* Unordered list for menu elements */
-.menu ul {
-	position: relative;
-	padding-left: 24%;
-}
+
 /* Container for links in footer */
 #mainWrapper footer .footerlinks {
 	padding-left: 8%;

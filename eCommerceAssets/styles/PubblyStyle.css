@@ -11,20 +11,6 @@ header {
 	font-style: normal;
 	font-weight: 400;
 }
-table {
-  border-collapse: separate;
-  border-spacing: 50px 0;
-  font-family: 'Montserrat', sans-serif;
-	color: rgba(227,99,36,1.00);
-	font-size: 16px;
-	font-style: normal;
-	font-weight: 400;
-}
-
-td {
-  padding: 10px 0;
-}
-
 
 /* Logo placeholder*/
 #logo {
